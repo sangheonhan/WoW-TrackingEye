@@ -65,7 +65,7 @@ function TrackingEye:OnInitialize()
 	}
 	LibStub("AceConfig-3.0"):RegisterOptionsTable("TrackingEye", options, {"te", "TrackingEye"})
 
-	MiniMapTrackingFrame:SetScale(0.001) --hide frame permanently by making it tiny
+	MiniMapTracking:SetScale(0.001) --hide frame permanently by making it tiny
 
 	LDBIcon:Register("TrackingEyeData", LDB, self.db.profile.minimap)
 	LDBIcon:GetMinimapButton("TrackingEyeData"):SetScale(self.db.profile.minimap.scale)
@@ -177,7 +177,7 @@ function TrackingEye:TrackingMenu_Open()
 	end
 
 	local menuFrame = CreateFrame("Frame", "TrackingEyeTrackingMenu", UIParent, "UIDropDownMenuTemplate")
-	EasyMenu(menu, menuFrame, "cursor", 0 , 0, "MENU");
+	LibDD:EasyMenu(menu, menuFrame, "cursor", 0 , 0, "MENU");
 end
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------

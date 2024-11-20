@@ -1,7 +1,8 @@
-## Interface: 11404
-## Title: Tracking Eye
+## Interface: 11504
+## Title: Tracking Eye (Fanfix)
 ## Author: Linden Ryuujin
-## Version: 2.2.0
+## Note: Fanfix by Niper
+## Version: 2.2.1 (Fanfix by Niper)
 
 ## SavedVariables: TrackingEyeDB
 ## OptionalDeps: Ace3, Masque, LibButtonGlow-1.0, LibActionButton-1.0, LibKeyBound-1.0, LibDBIcon-1.0, LibWindow-1.1, LibDualSpec-1.0
